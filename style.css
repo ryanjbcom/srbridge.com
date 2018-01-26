@@ -904,6 +904,9 @@ footer {
 /*------------------------------------------------------------------
 [ 18 Extra ]
 --------------------------------------------------------------------*/
+
+/*------ Banners within index -------*/
+
 .banner1 {
     padding: 0 0;
     background: url(images/fsws.jpg) no-repeat center center;
@@ -923,6 +926,17 @@ footer {
     background-attachment: fixed;
 
 }
+
+.banner3 {
+    padding: 0 0;
+    background: url(images/slider/slidebanner.jpg) no-repeat center center;
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+
 /*--------------------------------------------------------
 ---------------------------[End ]-----------------------
 ---------------------------------------------------------*/
