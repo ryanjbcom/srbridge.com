@@ -255,7 +255,7 @@ html,body{height:100%;}
   width:100%;
   height:100%;
   top:0;left:0;
-  background-size:cover;
+  background-size: cover;
   position:fixed;
 }
 
@@ -955,7 +955,7 @@ html,body{height:100%;}
   display:block;
 }
 
-.blog_img a:hover:after{opacity:.1} 
+.blog_img a:hover:after{opacity:.1}
 
 .blog_img a:hover:after  {
     transform: scale(1);
@@ -1180,7 +1180,7 @@ footer {
 
 .banner2 {
     padding: 0 0;
-    background: url(images/keyboard.jpg) no-repeat center center;
+    background: url(images/slider/code.gif) no-repeat center center;
     width: 100%;
     height: 400px;
     background-size: contain;
@@ -1197,6 +1197,31 @@ footer {
     background-attachment: fixed;
 }
 
+.headerImage {
+    padding: 0 0;
+    background: url(images/slider/code.gif) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 
 /*--------------------------------------------------------
 ---------------------------[End ]-----------------------
